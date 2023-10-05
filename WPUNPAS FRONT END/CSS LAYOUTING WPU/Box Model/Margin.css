@@ -1,0 +1,23 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+/* Vertical yang dipilih margin yg paling besar antara atas atau bawah */
+/* Horizontal akan dijumlahkan jumlah margin kanan kirinya */
+/* Negatif Margin akan membuat objek berlawanan arah */
+/* Margin auto akan membuat objek berada di tengah */
+/* Shorthand Margin atas, kanan, bawah, kiri */

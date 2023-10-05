@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kanda Wedding</title>
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Simply Countdown -->
+    <link rel="stylesheet" href="simplyCountdown.theme.default.css"/>
+    <script src="simplyCountdown.min.js"></script>
+
+    <!-- icons bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="poster" 
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
+            <h1>Kaka & Wanda</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg mt-4" onclick="enablescroll()">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Kanda</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kanda</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+              <div class="navbar-nav ms-auto">
+                  <a class="nav-link" href="#home">Home</a>
+                  <a class="nav-link" href="#info">Info</a>
+                  <a class="nav-link" href="#story">Story</a>
+                  <a class="nav-link" href="#gallery">Gallery</a>
+                  <a class="nav-link" href="#rsvp">RSVP</a>
+                  <a class="nav-link" href="#gifts">Gifts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+      <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 18 September 2027 di Gilimanuk, Bali.</h3>
+                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan kami.</p>
+                </div>
+            </div>
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Muhamad Kaka Hardiansyah</h3>
+                            <p>Muhamad Kaka Hardiansyah adalah anak pertama dari 2 bersaudara, dari bapak slamet hariyadi dan ibu dwi hayati.</p>
+                            <p>Putra dari Bpk. Slamet Hariyadi <br> dan <br> Ibu Dwi Hayati</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="Kaka.jpeg" alt="Kaka Hardiansyah" class="w-100 h-100 img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+
+                <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="Wanda.jpeg" alt="Juwita Wanda" class="w-100 h-100 img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Ita Juwita Wanda</h3>
+                            <p>Ita Juwita wanda adalah anak ketiga dari 3 bersaudara, anak dari pasangan bapak iwan efendi dan ibu lilik.</p>
+                            <p>Putra dari Bpk. Iwan Efendi <br> dan <br> Ibu Lilik</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat: Gilimanuk, Kec. Melaya, Kabupaten Jembrana, Bali, Jl. Duyung Asri Barat Gg2</p>
+                    <a href="https://goo.gl/maps/BbjezsoQvBpsXZVv9" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda tanda sedang dilangsungkan pernikahan, bisa jadi anda salah jadwal, atau salah alamat.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5">
+                        <div class="card-header">
+                          Akad Nikah
+                        </div>
+                        <div class="card-body">
+                          <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <i class="bi bi-clock d-block"></i>
+                                <span>08:00 - 10:00</span>
+                            </div>
+                          <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <i class="bi bi-calendar3 d-block"></i>
+                                <span>Sabtu, 18 September 2027</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+                        </div>
+                      </div>
+                </div>
+            </div>
+         <div class="col-md-5 col-10">
+                <div class="card text-center text-bg-light">
+                    <div class="card-header">
+                      Resepsi
+                    </div>
+                    <div class="card-body">
+                      <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <i class="bi bi-clock d-block"></i>
+                            <span>11:00 - Selesai</span>
+                        </div>
+                      <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <i class="bi bi-calendar3 d-block"></i>
+                            <span>Sabtu, 18 September 2027</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="story" class="story">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <span>Bagaimana Cinta Kita Bersemi</span>
+              <h2>Cerita Kami</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At beatae iste doloremque autem tempora adipisci libero asperiores veritatis aliquam a blanditiis tempore accusamus ullam itaque tenetur hic unde totam dolor dolores quasi cumque enim sint, ab ratione! Sint doloremque natus vel libero veritatis minima consequuntur necessitatibus quia fuga facere. Hic debitis libero aspernatur unde obcaecati laudantium quam sint provident fuga, ipsa eaque culpa repellat odio laborum eligendi autem voluptatem rem tempore voluptatum quae ut veniam. Modi reiciendis quas voluptas a? Illo, reiciendis. Ut cumque animi, ab consequuntur vero voluptate optio temporibus accusamus iusto nisi molestiae qui corrupti quisquam vel dolorem!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-image" style="background-image: url(/Gambar/masjid.jpeg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Pertama Bertemu</h3>
+                      <span>6 Oktober 2022</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed mollitia labore quos sapiente reiciendis, omnis maxime suscipit nihil perspiciatis! Voluptatum.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image" style="background-image: url(IMG_6066.jpeg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Mulai seriuss</h3>
+                      <span>20 Februari 2023</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio minima maxime, totam dolor odit praesentium neque hic non nesciunt. Accusantium porro, facilis fuga ullam quidem est recusandae consectetur consequatur inventore quas, iste itaque et adipisci?</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-image" style="background-image: url(/Gambar/bali.jpg);"></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Tunangan</h3>
+                      <span>20 April 2023</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aspernatur, accusamus tempore corporis ipsum mollitia sint ratione labore ullam, doloremque, dolore sit quod delectus nobis voluptas voluptatem. Quisquam, sapiente exercitationem.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <span>Our Memory</span>
+              <h2>Gallery</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, reprehenderit.</p>
+            </div>
+          </div>
+
+          <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="col mt-3">  
+              <a href="IMG_6057.jpeg" data-toggle="lightbox" data-gallery="mygallery">
+                <img src="thumbnail/IMG_6057.jpg" alt="Kaka & Wanda" class="img-fluid w-100 rounded">
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a href="IMG_6357.jpeg" data-toggle="lightbox" data-gallery="mygallery">
+                <img src="thumbnail/IMG_6357.jpg" alt="Kaka & Wanda" class="img-fluid w-100 rounded">
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a href="IMG_7661.jpeg" data-toggle="lightbox" data-gallery="mygallery">
+                <img src="thumbnail/IMG_7661.jpg" alt="Kaka & Wanda" class="img-fluid w-100 rounded">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rsvp" class="rsvp">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <h2>Konfirmasi Kehadiran</h2>
+              <p>Isi form dibawah ini untuk konfirmasi kehadiran</p>
+            </div>
+          </div>
+
+          <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+            method="POST" 
+            action="https://script.google.com/macros/s/AKfycbxNx8WGaXhyQSC38BMMuyv319qkx_sLOHG0GkDmGLlL2GVUvQmkU2YOaieO5gB4tyKu9g/exec" id="my-form">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" name="nama">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="jumlah" class="form-label">Jumlah</label>
+                <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="status" class="form-label">Konfirmasi</label>
+                <select name="status" id="status" class="form-select">
+                  <option selected>Pilih salah satu</option>
+                  <option value="Hadir">Hadir</option>
+                  <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12" style="margin-top: 35px;">
+              <button class="btn btn-primary">Kirim</button>
+            </div>
+          </form>
+        </div>
+
+      </section>
+
+      <section id="gifts" class="gifts">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <span>ungkapan tanda kasih</span>
+              <h2>Kirim Hadiah</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit omnis iusto soluta. Illum qui ullam atque, veniam debitis incidunt illo?</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center text-center">
+            <div class="col-md-6">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="fw-bold">BRI</div>
+                  4697-01-012944-53-0 - Muhamad Kaka Hardiansyah
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Gopay</div>
+                  085157718328 - Muhamad Kaka Hardiansyah
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Saweria</div>
+                  <img src="download.png" alt="Saweria QR" class="img-thumbnail" width="150">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <small class="block">&copy;2023 Kanda Wedding. All Right Reserved</small>
+              <small class="block">Design by <a href="https://instagram.com/kakaa_genzz">@kakaa_genzz</a>.</small>
+
+              <ul class="mt-3">
+                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#"><i class="bi bi-tiktok"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+      <div id="audio-container">
+        <audio id="song" autoplay loop>
+          <source src="Audio/Akad - Payung Teduh ( Piano Cover )_e6IJuCtAAO8.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+        </div>
+      </div>
+
+
+
+
+        <!-- JAVASCRIPT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script>
+        simplyCountdown('.simply-countdown', {
+            // This is an example with default parameters
+    // You'll always have to call simplyCountdown using ID's, no classes.
+            year: 2027, // required
+            month: 9, // required
+            day: 18, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+        });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function(){
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas',  function(){
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <!-- Lightbox bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+  <!-- Disabled scroll -->
+  <script>
+    const rootElement = document.querySelector(":root");
+
+    function dissableScroll(){
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function (){
+        window.scrollTop(scrollTop, scrollLeft);
+      }
+
+      rootElement.style.scrollBehavior = 'auto';
+    }
+
+    function enablescroll(){
+      window.onScroll = function () {}
+      rootElement.style.scrollBehavior = 'smooth';
+    }
+
+    dissableScroll();
+  </script>
+
+  <script>
+      window.addEventListener("load", function() {
+    const form = document.getElementById('my-form');
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const data = new FormData(form);
+      const action = e.target.action;
+      fetch(action, {
+        method: 'POST',
+        body: data,
+      })
+      .then(() => {
+        alert("Konfirmasi kehadiran berhasil dikirim!");
+      })
+    });
+  });
+  </script>
+
+  </body>
+</html>

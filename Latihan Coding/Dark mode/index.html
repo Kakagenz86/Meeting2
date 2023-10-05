@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dark mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <!-- Navbar -->
+        <nav class="navbar">
+            <h1>LOGO</h1>
+
+            <!-- NAV LINKS -->
+            <ul class="nav-links">
+                <li class="links">Home</li>
+                <li class="links">About</li>
+                <li class="links">Contact</li>
+            </ul>
+            <!-- DARK-MODE-TOOGLE -->
+            <a onclick="darkMode()">Mode</a>
+        </nav>
+    </div>
+
+    <!-- OPTIONAL CONTENT -->
+    <main>
+        <section>
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dignissimos odio deleniti? Debitis fugiat quae iusto libero ab tempora. Nam laboriosam velit dicta perspiciatis accusamus eveniet labore autem placeat quidem. Labore aliquid a est itaque dolores doloribus laborum officiis nemo debitis, dicta esse perspiciatis! Nobis, natus beatae? Ullam cumque expedita consequatur laudantium, ex ea molestiae repudiandae aspernatur sint at perspiciatis ipsa facere voluptates incidunt blanditiis, dolorem nemo porro cum. Error, modi natus. At reiciendis mollitia assumenda soluta nihil. Ad dolor cumque dolores ullam exercitationem, repellat eum fugiat, consequuntur, harum vitae animi libero explicabo laudantium? Impedit enim est numquam debitis veritatis.</p>
+        </section>
+    </main>
+
+    <!-- ICON FROM FONTAWESOME -->
+    <script>
+        let body = document.body;
+
+        function darkMode() {
+            console.log('dark mode di klik');
+            body.classList.toggle("dark")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+            /* inset menambah bayangan didalam element */
+            /* x-offset mengatur jarak bayangan pada sumbu horizontal kanan kiri */
+            /* y-offset mengatur jarak bayangan pada sumbu vertikal atas bawah */
+            /* blur seberapa blur yang dikasih pada bayangan */
+            /* spread ukuran dari bayangannya */
+        .satu {
+            height: 200px;
+            width: 200px;
+            background-color: lightsalmon;
+            margin: 50px auto;
+            box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.5);
+        }
+        .dua {
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            margin: 50px auto;
+            box-shadow: 0px 30px 10px -20px rgba(0, 0, 0, 0.75);
+            transition: .3s;
+        }
+        .dua:hover {
+            box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, 0.20);
+            margin-top: 40px;
+        }
+        .tiga {
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+            margin: 50px auto;
+            box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+        .empat {
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+            margin: 50px auto;
+            box-shadow: inset 0px 0px 0px 5px rgba(248, 2, 2, 0.5),
+            0px 0px 0px 10px red,
+            0px 0px 0px 15px greenyellow,
+            0px 0px 0px 20px blue;
+            border-radius: 50%;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100px;
+            text-align: center;
+            text-shadow: 5px 5px 10px red   ;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="satu"></div>
+    <br>
+    <div class="dua"></div>
+    <br>
+    <div class="tiga"></div>
+    <br>
+    <div class="empat"></div>
+    <br>
+    <h1>Hello World!</h1>
+    
+</body>
+</html>

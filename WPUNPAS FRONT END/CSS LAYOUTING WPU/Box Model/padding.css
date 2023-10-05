@@ -1,0 +1,35 @@
+p {
+    width: 185px;
+    background-color: rgb(127, 255, 212);
+    margin: 30px auto;
+    padding: 50px;
+    border: 5px double crimson;
+}
+
+div {
+    width: 600;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.satu {
+    background-color: bisque;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.dua {
+    background-color: blueviolet;
+    padding: 30px;
+    border: 10px dotted red;
+}
+
+/* Menambah ruang didalam kotak dan mempengaruhi ukuran height, width */
+/* box-sizing mengatur dimensi kotak agar tetap */
+/* Border juga menambah ukuran elemen */
+/* Border right, left, top, bottom hanya menggunakan 1 sisi border */
+/* Style Border */
+/* solid garis lurus */
+/* dotted titik titik */
+/* dashed garis putus putus */
+/* double ada 2 garis lurus */

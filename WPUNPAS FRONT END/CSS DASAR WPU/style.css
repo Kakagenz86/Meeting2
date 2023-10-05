@@ -1,0 +1,99 @@
+/* Font and styling */
+/* Font-Family mengatur jenis font */
+/* Font-size mengatur ukuran font */
+/* font-weight mengatur ketebalan font */
+/* font-variant mengatur font menjadi small caps */
+/* font-style mengatur font menjadi cetak miring */
+/* line-height mengatur spasi antar baris */
+
+
+/* TEXT STYLING */
+/* text-align MENGATUR FORMAT PARAGRAF left, right, justify, center */
+/* text-indent memberi indentasi atau jarak pada paragraf px atau %*/
+/* text-decoration mengatur dekorasi pada teks underline, overline, line-through */
+/* text-transform mengubah jenis huruf menjadi besar, kecil, atau kapital lowercase uppercase capitalize */
+/* letter-spacing memberi spasi pada huruf px */
+/* word-spacing memberi spasi pada tiap kata px */
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 30px;
+    color: brown;
+}
+
+.lorem-content {
+    font: italic bold 10px/20px Arial;
+    color: black;
+}
+
+h2, h3 {
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+/* BACKGROUND */
+/* background-color mengatur warna background */
+/* background-image mengatur gambar background */
+/* background-repeat mengatur ulang gambar background */
+/* background-attachment mengatur gambar background */
+/* background-position mengatur posisi gambar background */
+
+body {
+    background-color: white;
+    background-image: url(pngkit_purple-lens-flare-png_890850\ -\ Copy.png);
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+/* selector elemen html, id, class */
+ol li a {
+    color: green;
+}
+
+/* pseudo-class */
+/* YANG BERHUBUNGAN DENGAN LINK */
+.Hello {
+    color: black;
+}
+
+.Hello:hover {
+    font-family: arial;
+    color: blue;
+    font-size: 35px;
+    background-color: aqua;
+}
+
+.Hello:active {
+    font-style: italic;
+}
+
+.Hello:visited {
+    color: white;
+}
+
+/* YANG BERHUBUNGAN DENGAN POSISI NOMOR */
+li:first-child a {
+    color: red;
+}
+li:last-child a {
+    color: brown;
+}
+/* odd untuk ganjil */
+/* even untuk genap */
+li:nth-child(9) a {
+    color: silver;
+}
+
+/* CSS inheritance / pewarisan */
+/* a { color: inherit; } */
+
